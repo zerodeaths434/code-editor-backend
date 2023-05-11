@@ -38,7 +38,7 @@ app.post("/register", async (req, res) => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://code-bros.netlify.app/",
     // credentials: true,
   },
 });
