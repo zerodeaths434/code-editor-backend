@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 dotenv.config();
-
 const server = app.listen(4000, console.log("Server running on PORT 4000..."));
 
 mongoose.set("strictQuery", false);
